@@ -1,0 +1,87 @@
+{
+  "record_updated": "2026-10-09",
+  "provenance_rule": "Separate profile-reported statements from evidence in code/repository history; no unverified outcomes are presented as fact.",
+  "identity": {
+    "github_display_name": "Collins Chidera Eze",
+    "linkedin_display_name": "Collins Eze",
+    "preferred_resume_name": "Collins Chidera Eze (provisional; confirm)",
+    "github_username": "chideracollins",
+    "location": {
+      "github_profile_reported": "Nigeria",
+      "linkedin_profile_reported": "Enugu State, Nigeria",
+      "current_location_confirmed": false
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "public_links": [
+        "https://github.com/chideracollins",
+        "https://linkedin.com/in/cceze"
+      ]
+    }
+  },
+  "target_roles": {
+    "confirmed": true,
+    "confirmed_on": "2026-10-09",
+    "revised_on": "2026-10-09 (user narrowed from 6 to 3 roles)",
+    "roles": ["Flutter mobile app developer", "Backend developer with Python FastAPI", "AI applications developer"],
+    "primary": "Flutter mobile app developer (junior/entry-level) — strongest verified evidence (3 public Flutter apps)",
+    "coherent_narrative": "Builds AI-powered applications end-to-end: Flutter client + FastAPI/AI backend",
+    "dropped_roles": ["React Native mobile", "React + Vite frontend", "Next.js fullstack"],
+    "level": "Junior / entry-level",
+    "timeline": "Applying now (ASAP), as of October 2026",
+    "weekly_capacity_hours": "20+",
+    "work_mode": "Both remote/international and local Nigeria",
+    "applications_status": "None sent yet as of 2026-10-09; pipeline greenfield",
+    "planned_weekend_2026_10_10_11": "PIVOTED 2026-10-09 to podcast-ai (AI podcast discovery). Arc: Weekend A = FastAPI + Podcast Index + auth + Paystack subscription skeleton + tests + deploy; Weekend B = transcription (Grok/Gemini) + summaries + embeddings/recommendations + Flutter v1; Weekend C = paywall + gating + CI. User builds, assistant specs. PRD at /Users/cc/Repo/narra/PRD.md; Weekend A task spec at /Users/cc/Repo/narra/WEEKEND_A.md (written 2026-10-09). Renamed podcast-ai -> narra 2026-10-09.",
+    "source": "Confirmed by user in 2026-10-09 intake + follow-up"
+  },
+  "experience_profile_reported": [
+    {"title": "Chief Executive Officer", "organization": "VIVIDLY", "dates": "September 2025–Present", "source": "LinkedIn self-reported; not independently verified", "achievement_details": "Not supplied"},
+    {"title": "Chief Executive Officer", "organization": "Speech", "dates": "July 2025–October 2025", "source": "LinkedIn self-reported; not independently verified", "achievement_details": "Not supplied"},
+    {"title": "Data Scientist", "organization": "Decent Jobs Tech Skills Ltd", "dates": "January 2024–August 2025", "location": "Enugu State, Nigeria", "source": "LinkedIn self-reported; not independently verified", "achievement_details": "Not supplied"},
+    {"title": "Chief Executive Officer", "organization": "rapidClient", "dates": "October 2023–August 2025", "source": "LinkedIn self-reported; not independently verified", "achievement_details": "Not supplied"}
+  ],
+  "education_profile_reported": [
+    {"credential": "Bachelor of Engineering (B.Eng.), Electronic and Computer Engineering", "institution": "University of Nigeria, Nsukka", "dates": "2019–2024", "source": "LinkedIn self-reported; award status not independently verified"}
+  ],
+  "skills_evidence": [
+    {"skill": "Dart / Flutter", "status": "Project evidence observed", "evidence": ["flutter_ui_migration_lint", "my_quest", "storrs-business"], "last_reviewed": "2026-10-07", "not_yet_assessed": "Independent interview performance; tests/builds were not run"},
+    {"skill": "custom_lint / Dart analyzer", "status": "Project evidence observed", "evidence": ["flutter_ui_migration_lint implementation and tests"], "last_reviewed": "2026-10-07", "not_yet_assessed": "Tests not run during review"},
+    {"skill": "React / TypeScript / Vite", "status": "Project evidence observed", "evidence": ["portfolio source repository and live site"], "last_reviewed": "2026-10-07", "not_yet_assessed": "Build/tests not run during review"},
+    {"skill": "Riverpod / Isar", "status": "Used in local project code", "evidence": ["my_quest"], "last_reviewed": "2026-10-07", "not_yet_assessed": "Runtime behavior and tests not verified"},
+    {"skill": "Applied LLMs / Generative AI", "status": "Profile-stated interest; partial project evidence", "evidence": ["GitHub bio; My Quest AI-question provider supports local/cloud model selection"], "last_reviewed": "2026-10-07", "not_yet_assessed": "Depth of model/agent design and measured outcomes"},
+    {"skill": "Python", "status": "Public repository metadata/README only", "evidence": ["speech-cli"], "last_reviewed": "2026-10-07", "not_yet_assessed": "Source implementation not reviewed; not included in resume skills"}
+  ],
+  "project_evidence": [
+    {"name": "flutter_ui_migration_lint", "status": "Public project; code/readme/tests reviewed", "evidence": "Custom lint rule flags configured Flutter imports, supports mapping overrides/exclusion globs and import-rewrite quick-fix.", "link": "https://github.com/chideracollins/flutter-ui-migration-lint", "verified_2026_10_09": "flutter analyze clean; 6/6 tests fail at harness level (AnalysisContextCollectionImpl cannot resolve fixtures importing package:flutter inside testAnalyzeAndRun); pubspec.yaml repository field is placeholder 'your-org'"},
+    {"name": "My Quest", "status": "Public repo as of 2026-10-09", "evidence": "Flutter journaling app with Isar journal records and Riverpod AI-question stream selecting local/cloud model providers. AGENTS.md confirms substantial stack: clean architecture, GoRouter, GetIt/injectable, isar_community, firebase_auth, flutter_gemma on-device LiteRT.", "link": "https://github.com/chideracollins/my-quest", "verified_2026_10_09": "flutter analyze clean; 25/26 tests pass. Remaining test (generateJournalTitleProvider disposal safety) has never passed: stale expectation 'Entry 1. ' vs current fallback 'Nothing much', plus hang after container.dispose() (autoDispose provider). Assistant added async-prefs mock setup + shared_preferences_platform_interface dev_dep (prereq for the test to run)."},
+    {"name": "AVABOT", "status": "Public repo", "evidence": "Flutter app (Dart), created 2024-07, updated 2024-10; user claims this is the first of their three Flutter apps. Feature/quality review not yet done.", "link": "https://github.com/chideracollins/AVABOT"},
+    {"name": "storrs-retailer", "status": "Public repo", "evidence": "Flutter app for Storrs ('helping businesses sell more on whatsapp'), Dart, updated 2026-01; full platform scaffolding (android/ios/web/linux/macos/windows) + test dir. AI-ads management + sales module touched in commits per earlier review of storrs-business. Feature/quality review not yet done.", "link": "https://github.com/chideracollins/storrs-retailer"},
+    {"name": "Portfolio website", "status": "Live public site and local React/TypeScript source reviewed", "evidence": "Theme selection persists in localStorage; README describes GitHub Pages workflow. Public site makes senior/FastAPI/MCP/AI-agent claims not substantiated by reviewed project evidence.", "link": "https://github.com/chideracollins/chideracollins.github.io", "public_site": "https://chideracollins.github.io/", "resume_link_status": "Withheld pending claim alignment", "user_confirmed_2026_10_09": "Claims partly real, partly overstated; user must identify which projects back which claims before site alignment"},
+    {"name": "Storrs business mobile app", "status": "Shared local repository; commit history reviewed, dirty diffs not inspected", "evidence": "Commits authored as chideracollins touch AI-ads management, sales module, shared UI and documentation; no employment/client context or naming permission confirmed.", "link": null, "resume_status": "Omit pending user confirmation"},
+    {"name": "Speech CLI", "status": "Public repo cloned + source reviewed 2026-10-09; not a fork; commits authored by chideracollins", "evidence": "38 Python files / ~2,640 LOC; LangChain used in core/llm.py, agents (base, generator_agent, handoff), decorators, widgets; OpenAI + Anthropic config; agentic CLI structure (core/config/agents/cli). No tests present. pyproject description is template placeholder ('Add your description here'); README links to speech-code/speech-cli + speech.dev branding — appears to be the repo of the 'Speech' product the user led as CEO. Metadata hygiene needs cleanup before use as portfolio artifact.", "link": "https://github.com/chideracollins/speech-cli", "resume_status": "Claimable as product work on Speech; not evidence of from-scratch authorship or code quality; no tests"},
+    {"name": "spotify-ai-dj", "status": "Pivoted away 2026-10-09 (on hold)", "evidence": "User wanted an app that mixes songs for listeners; Spotify prohibits audio mixing and monetizing streaming apps, so pivoted to podcast-ai. PRD/docs kept as reference at /Users/cc/Repo/spotify-ai-dj/ (PRD.md, README.md, docs/spotify-web-api-dos-and-donts.md).", "link": null},
+    {"name": "narra (formerly podcast-ai)", "status": "Planned; PRD created 2026-10-09; renamed 2026-10-09", "evidence": "PRD at /Users/cc/Repo/narra/PRD.md. AI podcast discovery: Podcast Index API (catalog), xAI Grok STT + Gemini 3.5 Transcribe (transcription), LangChain ChatXAI/ChatGoogleGenerativeAI (summaries + recommendations with reasoning), embeddings + vector search, Flutter client, Paystack subscription in v1. User builds; assistant specs. Adapter pattern for deterministic tests.", "link": null},
+    {"name": "payments-app", "status": "Subsumed into podcast-ai v1 (2026-10-09)", "evidence": "Paystack subscription tier folded into podcast-ai v1 (webhooks + idempotency + premium gating) instead of a standalone app. Separate payments-only project no longer planned.", "link": null}
+  ],
+  "public_github_snapshot": {
+    "profile_created_at": "2021-07-05T20:09:03Z",
+    "public_repositories_reported": 42,
+    "followers_at_review": 22,
+    "following_at_review": 72,
+    "snapshot_date": "2026-10-07",
+    "inventory_file": "repository_inventory.json"
+  },
+  "unknowns": [
+    "Current location confirmation and work authorization details for remote/international roles",
+    "Preferred professional name and whether VIVIDLY title includes Co-founder",
+    "Email/phone, only if user wants them on the resume",
+    "Verified employment dates/titles and project responsibilities",
+    "Role-specific achievements, scale, business or technical outcome metrics",
+    "Degree completion/award status",
+    "Public visibility and naming permission for local/shared projects",
+    "Interview performance and independently demonstrated skill level",
+    "Whether the two Flutter projects' failing tests should be fixed, rewritten, or removed (user decision pending)"
+  ]
+}
